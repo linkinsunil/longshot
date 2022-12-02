@@ -1,0 +1,130 @@
+* {
+  box-sizing: border-box;
+}
+
+.menu-container {
+  min-width: 6rem;
+  height: 100vh;
+  font-size: 0.8rem;
+  position: sticky;
+  top: 0;
+  overflow-x: hidden;
+  flex: 1;
+  background-color: #fff;
+}
+
+.menu-wrapper {
+  padding: 10px 10px;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.menuTop {
+  flex: 1;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 0.5rem;
+}
+
+.img {
+  height: 30px;
+}
+
+.brandText {
+  font-size: 28px;
+  color: #6200ea;
+  text-transform: uppercase;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+}
+
+.brandBold {
+  font-size: 28px;
+  font-weight: bolder;
+  color: #6200ea;
+  text-transform: uppercase;
+}
+
+.currentProject {
+  background-color: #eceff1;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  font-weight: 700;
+  color: #607d8b;
+  gap: 0.3rem;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  cursor: pointer;
+  padding: 7.5px 3px;
+  width: 200px;
+  color: #607d8b;
+  font-weight: 500;
+}
+
+.item:hover {
+  background-color: #eceff1;
+  border-radius: 0.3rem;
+  transition: 0.5s ease;
+}
+
+hr {
+  margin: 15px 0;
+  border: 0.5px solid #e0e0e0;
+  width: 100%;
+}
+
+.login {
+}
+
+.button {
+  padding: 5px 10px;
+  margin: auto;
+  width: 95%;
+  background-color: #4caf50;
+  border: 1px solid #4caf50;
+  color: #fff;
+  border-radius: 3px;
+  font-weight: 500;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.projectTitle {
+  color: #000;
+}
+
+.menuFooter {
+  padding: 0.3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.profileDetail {
+  background-color: #ecf9ff;
+}
+
+.profileAvatar {
+  height: 2rem;
+  border-radius: 50%;
+}
+
+.profileText {
+  font-weight: bold;
+}
+
+.profileCredits {
+  font-size: 12px;
+}
