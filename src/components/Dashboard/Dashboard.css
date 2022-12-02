@@ -1,0 +1,15 @@
+.dashboard {
+  background-color: bisque;
+  flex: 4;
+  display: flex;
+}
+
+.dashboard-container {
+  flex: 4;
+}
+
+.hr-separator {
+  margin: 0.8rem 0;
+  border: 0.5px solid #e0e0e0;
+  width: 100%;
+}
