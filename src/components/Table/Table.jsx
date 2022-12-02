@@ -22,8 +22,7 @@ const Table = ({ tableCategory }) => {
     handleTableData();
   }, [tableCategory]);
 
-  const showTableData = (e, currentRow) => {
-    console.log(e.target.checked);
+  const showTableData = currentRow => {
     setRowData(currentRow);
   };
 
@@ -43,8 +42,9 @@ const Table = ({ tableCategory }) => {
             <tr key={index}>
               <td>
                 <input
+                  checked={object[0] === rowData[0]}
                   type='checkbox'
-                  onChange={e => showTableData(e, object)}
+                  onChange={() => showTableData(object)}
                 />
               </td>
               {object.map(
