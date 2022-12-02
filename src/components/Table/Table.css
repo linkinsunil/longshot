@@ -1,0 +1,39 @@
+.tableContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+table {
+  text-align: left;
+  position: relative;
+  border-collapse: collapse;
+  background-color: #f6f6f6;
+  border: 3px solid #e2e3e3;
+  border-spacing: 0px;
+  text-indent: 0px;
+}
+
+td {
+  border-top: 1px solid #e2e3e3;
+  border-bottom: 1px solid #e2e3e3;
+  padding: 0.6rem;
+  font-weight: 700;
+  font-size: 0.8rem;
+}
+
+th {
+  border: 1px solid #e2e3e3;
+  background: #f4f5f9;
+  color: #000;
+  border-radius: 0;
+  position: sticky;
+  top: 0;
+  padding: 0.6rem;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+tbody > tr:hover {
+  background-color: #e0e1e9;
+}
