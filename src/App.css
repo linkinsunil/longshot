@@ -1,8 +1,7 @@
 * {
   font-family: 'Urbanist', sans-serif;
-  overflow: hidden;
 }
 
 .container {
-  overflow: hidden;
+  /* overflow: hidden; */
 }
