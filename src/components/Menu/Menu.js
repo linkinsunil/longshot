@@ -4,13 +4,11 @@ import avatar from '../../images/avatar.svg';
 import HomeIcon from '@mui/icons-material/Home';
 import HistoryOutlinedIcon from '@mui/icons-material/HistoryOutlined';
 import AccountCircleOutlinedIcon from '@mui/icons-material/AccountCircleOutlined';
-import SettingsOutlinedIcon from '@mui/icons-material/SettingsOutlined';
 import FlagOutlinedIcon from '@mui/icons-material/FlagOutlined';
 import HelpOutlineOutlinedIcon from '@mui/icons-material/HelpOutlineOutlined';
 import SettingsBrightnessOutlinedIcon from '@mui/icons-material/SettingsBrightnessOutlined';
 import {
   FavoriteBorder,
-  FiberNewOutlined,
   PlaylistPlayOutlined,
   WatchLaterOutlined,
 } from '@mui/icons-material';
@@ -18,7 +16,6 @@ import { useNavigate } from 'react-router-dom';
 
 const Menu = () => {
   const navigate = useNavigate();
-  const token = localStorage.getItem('token');
 
   return (
     <aside className='menu-container'>

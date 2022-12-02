@@ -6,7 +6,6 @@ import TableOptions from '../TableOptions/TableOptions';
 import { SvgCircle } from '../svg/SvgCircle';
 import { useRowData } from '../../TableDataContext/tableDataContext.js';
 import { intentMap } from '../../utils/intentMap';
-import { hover } from '@testing-library/user-event/dist/hover';
 import { keywordDifficulty } from '../../utils/keywordDifficulty';
 
 const Main = () => {
