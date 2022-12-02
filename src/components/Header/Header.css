@@ -1,0 +1,29 @@
+.header {
+  padding: 1rem 1rem 0rem 1rem;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.explorer {
+  margin-bottom: 1rem;
+}
+
+.keyword {
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.database {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.dbImg {
+  height: 1rem;
+}
+
+.secondary {
+  color: #636363;
+}
